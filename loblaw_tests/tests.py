@@ -1,5 +1,5 @@
 import selenium.webdriver as webdriver
-driver = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
+driver = webdriver.Chrome()
 driver.implicitly_wait(5)
 
 def test_can_display_correct_store():
