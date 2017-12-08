@@ -24,6 +24,11 @@ class WebSiteCase(unittest.TestCase):
         item_price = self.driver.find_element_by_xpath('//span[@class="reg-price-text"][1]').text
         order_total = self.driver.find_element_by_xpath('//*[@id="navigation"]/div[1]/div[1]/div[2]/div[1]/div/div[1]/div/div/span[2]/span').text
         self.assertEqual(item_price, order_total)
+        
+    def test_shopping_cart_starts_empty(self):
+        self.driver.get("https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc")
+        order_total = self.driver.find_element_by_xpath('//*[@id="navigation"]/div[1]/div[1]/div[2]/div[1]/div/div[1]/div/div/span[2]/span').text
+        self.assertIn("0.00", order_total)
 
     def test_can_sort_items_by_price(self):
         all_prices = []
