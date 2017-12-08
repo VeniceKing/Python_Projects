@@ -1,0 +1,397 @@
+1512685062116	geckodriver	INFO	geckodriver 0.19.1
+1512685062169	geckodriver	INFO	Listening on 127.0.0.1:53158
+1512685064196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Jordy\\AppData\\Local\\Temp\\rust_mozprofile.By3iMe5C6V4u"
+1512685070370	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512685081031	Marionette	INFO	Listening on port 53164
+1512685082071	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512685082291	Marionette	DEBUG	Register listener.js for window 4294967297
+1512685082875	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512685083960	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512685083960	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512685089177	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/?search-bar=apples"
+1512685090674	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1512685092784	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512685089434/page/~item/apples/~sort/recommended/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+665396	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512685669960	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/?search-bar=apples"
+1512685671514	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1512685671742	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512685671034/page/~item/apples/~sort/recommended/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6956, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1512685983439	geckodriver	INFO	geckodriver 0.19.1
+1512685983451	geckodriver	INFO	Listening on 127.0.0.1:54431
+1512685985430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Jordy\\AppData\\Local\\Temp\\rust_mozprofile.6Ig1IK81l8dl"
+1512685986575	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512685991913	Marionette	INFO	Listening on port 54439
+1512685992786	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512685992870	Marionette	DEBUG	Register listener.js for window 4294967297
+1512685992925	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512685993856	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512685993857	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512685998507	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/?search-bar=apples"
+1512685999483	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1512686001511	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512685999583/page/~item/apples/~sort/recommended/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 2904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1512686380982	geckodriver	INFO	geckodriver 0.19.1
+1512686380997	geckodriver	INFO	Listening on 127.0.0.1:55049
+1512686383052	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Jordy\\AppData\\Local\\Temp\\rust_mozprofile.ZTq9qPO9gUVh"
+1512686384085	Marionette	INFO	Enabled via --marionette
+1512686388900	Marionette	INFO	Listening on port 55057
+1512686389405	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512686389522	Marionette	DEBUG	Register listener.js for window 4294967297
+1512686389577	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512686390643	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512686390643	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512686395108	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/?search-bar=apples"
+1512686396527	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1512686396782	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~sort/recommended/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+ome/common/ipc_channel_win.cc, line 346
+1512689195338	Marionette	INFO	Listening on port 58760
+1512689196385	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512689196472	Marionette	DEBUG	Register listener.js for window 4294967297
+1512689196504	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512689206899	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512689206900	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512689211489	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512689212425	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1512689214515	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1512689215129	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512689212634/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8508, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5316, Chrome_ChildThread] WARNINUnable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512690116748	Marionette	INFO	Listening on port 60252
+1512690117097	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512690117204	Marionette	DEBUG	Register listener.js for window 4294967297
+1512690117249	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512690118257	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512690118257	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512690122982	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512690124573	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1512690126457	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512690123812/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+"unload" for "about:blank"
+1512690283823	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512690285952	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967308"
+1512690288601	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+me/common/ipc_channel_win.cc, line 346
+1512690388667	Marionette	INFO	Listening on port 60818
+1512690388712	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512690388804	Marionette	DEBUG	Register listener.js for window 4294967297
+1512690388932	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512690390495	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512690390496	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512690393290	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512690395455	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967308"
+1512690398484	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rome/common/ipc_channel_win.cc, line 346
+[Child 8624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512690468232	Marionette	INFO	Listening on port 61024
+1512690468475	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512690468582	Marionette	DEBUG	Register listener.js for window 4294967297
+1512690468651	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512690469513	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512690469514	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512690474508	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512690475432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1512690477598	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1512690477748	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512690475213/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+AppData\Local\openvr\openvrpaths.vrpath
+[Child 2408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512690564366	Marionette	INFO	Listening on port 61296
+1512690564899	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512690565017	Marionette	DEBUG	Register listener.js for window 4294967297
+1512690565096	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512690566345	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512690566345	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512690571376	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512690572482	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1512690574957	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512690571897/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512691010883	Marionette	INFO	Listening on port 62038
+1512691011216	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512691011320	Marionette	DEBUG	Register listener.js for window 4294967297
+1512691011384	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512691012461	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512691012462	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512691017912	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512691018963	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1512691021146	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512691018030/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10092, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1512691119901	geckodriver	INFO	geckodriver 0.19.1
+1512691119911	geckodriver	INFO	Listening on 127.0.0.1:62358
+1512691121978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Jordy\\AppData\\Local\\Temp\\rust_mozprofile.nAUbNqdH1kqo"
+1512691123540	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512691129784	Marionette	INFO	Listening on port 62366
+1512691129800	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512691129892	Marionette	DEBUG	Register listener.js for window 4294967297
+1512691130090	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512691131191	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512691131192	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512691134066	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512691136155	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967308"
+1512691137276	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 1360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+2694
+1512691262533	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512691262631	Marionette	DEBUG	Register listener.js for window 4294967297
+1512691262664	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512691263233	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512691263234	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512691267938	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512691268956	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1512691271141	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512691268981/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6060, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1512691396439	geckodriver	INFO	geckodriver 0.19.1
+1512691396447	geckodriver	INFO	Listening on 127.0.0.1:63017
+1512691398507	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Jordy\\AppData\\Local\\Temp\\rust_mozprofile.LcDMakkcSm2P"
+1512691399596	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512691406053	Marionette	INFO	Listening on port 63025
+1512691406422	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512691406537	Marionette	DEBUG	Register listener.js for window 4294967297
+1512691406601	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512691407300	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512691407301	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512691410172	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512691412149	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967311"
+1512691413304	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6028, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6028, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512691594432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1512691597025	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967314"
+1512691597221	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512691594317/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8512, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ 63779
+1512691744120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512691744211	Marionette	DEBUG	Register listener.js for window 4294967297
+1512691744255	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512691744915	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512691744916	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512691750332	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512691751437	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1512691753911	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1512691754027	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512691750656/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+about:blank"
+1512692066676	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512692066676	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512692071378	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512692072447	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1512692074646	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1512692074906	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512692072415/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+e/common/ipc_channel_win.cc, line 346
+[Child 6208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512692249878	Marionette	INFO	Listening on port 64724
+1512692250177	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512692250288	Marionette	DEBUG	Register listener.js for window 4294967297
+1512692250338	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512692250984	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512692250985	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512692256329	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512692257805	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1512692258085	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512692256759/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 3772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512693066650	geckodriver	INFO	geckodriver 0.19.1
+1512693066659	geckodriver	INFO	Listening on 127.0.0.1:49593
+1512693068670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Jordy\\AppData\\Local\\Temp\\rust_mozprofile.GPy21bJR4yf7"
+1512693072888	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512693078350	Marionette	INFO	Listening on port 49601
+1512693078693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512693078800	Marionette	DEBUG	Register listener.js for window 4294967297
+1512693078845	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512693079566	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512693079566	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512693084334	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512693085692	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1512693085958	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512693085298/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6720, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ for window 4294967297
+1512693327961	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512693328853	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512693328853	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512693333702	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc"
+1512693335218	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1512693335481	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.loblaws.ca/search/1512693334413/page/~item/apples/~sort/price-desc/~selected/true"
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
