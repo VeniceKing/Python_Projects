@@ -44,7 +44,7 @@ class WebSiteCase(unittest.TestCase):
         store_description = self.driver.find_element_by_xpath('//*[@id="content"]/div[2]/div/div/div[2]/div/div[3]/div/div[1]/div/ul/li[1]/div/div/div[2]/div/h4').text
         store_select.click()
         web_location = self.driver.find_element_by_xpath('//*[@id="siteheader"]/div[1]/div[5]/button[1]/span[2]').text
-        self.assertIn("web_location", store_description, "The correct location is NOT being displayed")
+        self.assertIn(web_location, store_description, "The correct location is NOT being displayed")
 
 if __name__ == "__main__":
     unittest.main()
