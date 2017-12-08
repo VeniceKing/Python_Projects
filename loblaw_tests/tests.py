@@ -1,5 +1,4 @@
 import selenium.webdriver as webdriver
-from time import sleep
 driver = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
 driver.implicitly_wait(5)
 
