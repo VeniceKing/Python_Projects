@@ -4,7 +4,7 @@ import unittest
 class WebSiteCase(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
+        self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(5)
 
     def tearDown(self):
