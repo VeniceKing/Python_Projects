@@ -4,7 +4,7 @@ import unittest
 class WebSiteCase(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
         self.driver.implicitly_wait(5)
 
     def tearDown(self):
@@ -23,12 +23,12 @@ class WebSiteCase(unittest.TestCase):
         item_select.click()
         item_price = self.driver.find_element_by_xpath('//span[@class="reg-price-text"][1]').text
         order_total = self.driver.find_element_by_xpath('//*[@id="navigation"]/div[1]/div[1]/div[2]/div[1]/div/div[1]/div/div/span[2]/span').text
-        self.assertEqual(item_price, order_total)
-        
+        self.assertEqual(item_price, order_total, "The item was NOT added to the cart")
+
     def test_shopping_cart_starts_empty(self):
         self.driver.get("https://www.loblaws.ca/search/1512686396308/page/~item/apples/~selected/true/~sort/price-desc")
         order_total = self.driver.find_element_by_xpath('//*[@id="navigation"]/div[1]/div[1]/div[2]/div[1]/div/div[1]/div/div/span[2]/span').text
-        self.assertIn("0.00", order_total)
+        self.assertIn("0.00", order_total, "The shopping cart does NOT start empty")
 
     def test_can_sort_items_by_price(self):
         all_prices = []
@@ -36,7 +36,7 @@ class WebSiteCase(unittest.TestCase):
         all_spans = self.driver.find_elements_by_xpath('//span[@class="reg-price-text"]')
         for span in all_spans:
             all_prices.append(float(span.text.replace("$", "")))
-        self.assertEqual(sorted(all_prices, reverse=True), all_prices)
+        self.assertEqual(sorted(all_prices, reverse=True), all_prices, "The items are NOT sorted correctly")
 
     def test_can_display_correct_store(self):
         self.driver.get('https://www.loblaws.ca/store-locator')
@@ -44,7 +44,7 @@ class WebSiteCase(unittest.TestCase):
         store_description = self.driver.find_element_by_xpath('//*[@id="content"]/div[2]/div/div/div[2]/div/div[3]/div/div[1]/div/ul/li[1]/div/div/div[2]/div/h4').text
         store_select.click()
         web_location = self.driver.find_element_by_xpath('//*[@id="siteheader"]/div[1]/div[5]/button[1]/span[2]').text
-        self.assertIn(web_location, store_description, "The correct location is NOT being displayed")
+        self.assertIn("web_location", store_description, "The correct location is NOT being displayed")
 
 if __name__ == "__main__":
     unittest.main()
