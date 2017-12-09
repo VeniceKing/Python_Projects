@@ -1,11 +1,20 @@
+from selenium.webdriver.common.by import By
+
 class SearchPageLocators(object):
-	order_total = '//*[@id="navigation"]/div[1]/div[1]/div[2]/div[1]/div/div[1]/div/div/span[2]/span'
-	all_prices = '//span[@class="reg-price-text"]'
-	add_to_cart = '//span[@class="add-to-cart-text"][1]'
-	my_item = '//span[@class="reg-price-text"][1]'
-	pick_store = '//*[@id="navigation"]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div[1]/div/button'
+    order_total = (By.CSS_SELECTOR, "#navigation > div.module-primary-navigation.container > div.navbar.navbar-default.primary-navbar-wrap > div.module-mini-cart.abtest-25057-hide > div.module-cart-container.wrapper-cart-shortcut > div > div.component-wrapper > div > div > span.cart-total-text > span")
+    all_prices = (By.CSS_SELECTOR, '#content > div.page-search-results.container > div:nth-child(2) > div > div > div.wrapper-module-result.multiple > div > div.row.result-products > div.module-product-group.product-group-type-false > div > div.row.row-content.row-products.first-row-products.content-tile-container.has-content-tile-animation.loaded > div > div:nth-child(1) > div > div > div.product-info > div.price > div > span.reg-price > span.reg-price-text')
+    add_to_cart = (By.CSS_SELECTOR, '#content > div.page-search-results.container > div:nth-child(2) > div > div > div.wrapper-module-result.multiple > div > div.row.result-products > div.module-product-group.product-group-type-false > div > div.row.row-content.row-products.first-row-products.content-tile-container.has-content-tile-animation.loaded > div > div:nth-child(1) > div > form > div.module-add-to-cart > div > div > button.btn.btn-secondary.btn-add-to-cart > span.add-to-cart-text')
+    my_item = (By.CSS_SELECTOR, '#content > div.page-search-results.container > div:nth-child(2) > div > div > div.wrapper-module-result.multiple > div > div.row.result-products > div.module-product-group.product-group-type-false > div > div.row.row-content.row-products.first-row-products.content-tile-container.has-content-tile-animation.loaded > div > div:nth-child(1) > div > div > div.product-info > div.price > div > span.reg-price > span.reg-price-text')
+    pick_store = (By.CSS_SELECTOR, '#navigation > div.module-primary-navigation.container > div.temp-notification-alert-container > div.module-flyout-pick-a-store > div.message-and-button.col-sm-12.col-md-12.col-lg-6.col-xl-6 > div > div.button-container.col-md-12.col-sm-12.col-lg-12 > div.select-button-container > div > button')
+    location_button = (By.CSS_SELECTOR, '#content > div.page-store-locator.container > div > div > div.wrapper-search-result.row > div > div:nth-child(3) > div > div.wrapper-list > div > ul > li:nth-child(1) > div > div > div.wrapper-button.pull-left > a > span:nth-child(1)')
 
 class LocationPageLocators(object):
-	location_button = '//*[@id="content"]/div[2]/div/div/div[2]/div/div[3]/div/div[1]/div/ul/li[1]/div/div/div[3]/a/span[1]'
-	store_address = '//*[@id="content"]/div[2]/div/div/div[2]/div/div[3]/div/div[1]/div/ul/li[1]/div/div/div[2]/div/h4'
-	store_display = '//*[@id="siteheader"]/div[1]/div[5]/button[1]/span[2]'
+	location_button = (By.CSS_SELECTOR, '#content > div.page-store-locator.container > div > div > div.wrapper-search-result.row > div > div:nth-child(3) > div > div.wrapper-list > div > ul > li:nth-child(1) > div > div > div.wrapper-button.pull-left > a > span:nth-child(1)')
+	store_address = (By.CSS_SELECTOR, '#content > div.page-store-locator.container > div > div > div.wrapper-search-result.row > div > div:nth-child(3) > div > div.wrapper-list > div > ul > li:nth-child(1) > div > div > div.wrapper-content > div > h4')
+	store_display = (By.CSS_SELECTOR, '#siteheader > div.row.top-bar > div.wrapper-order-info.hidden-sm > button.btn-link.button-store-name.shoppable-stores.trigger-store-selector-modal > span.store-name-text.visible-lg.visible-inline-block')
+
+class HomePageLocators(object):
+    french_button = (By.CSS_SELECTOR, '#page > div:nth-child(3) > div > div:nth-child(2) > div > div.footer-terms > a.btn.btn-inline-link.language-link')
+    change_language_button = (By.CSS_SELECTOR, 'body > div.header-bar > ul > li:nth-child(3) > a')
+    search_bar = (By.CSS_SELECTOR, '#search-bar')
+    search_result = (By.CSS_SELECTOR, '#content > div.page-search-results.container > div:nth-child(2) > div > div > div.wrapper-module-result.multiple > div > div.row.result-header.primary-result-header > div.result-header-content > h3 > span.term-result-found')

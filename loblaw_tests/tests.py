@@ -12,6 +12,25 @@ class WebSiteCase(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
 
+    def test_can_search(self):
+        self.driver.get('https://www.loblaws.ca')
+        home_page = page.HomePage(self.driver)
+        home_page = page.HomePage(self.driver)
+        assert home_page.can_search_for_item()
+
+    def test_can_change_language(self):
+        self.driver.get('https://www.loblaws.ca')
+        home_page = page.HomePage(self.driver)
+        assert home_page.is_language_french()
+
+    def test_shopping_cart_starts_empty(self):
+        search_page = page.SearchPage(self.driver)
+        assert search_page.is_balance_zero()		
+
+    def test_can_add_item_to_cart(self):
+        search_page = page.SearchPage(self.driver)
+        assert search_page.is_item_in_cart()
+
     def test_can_display_correct_store(self):
         self.driver.get('https://www.loblaws.ca/store-locator')
         location_page = page.LocationPage(self.driver)
@@ -20,14 +39,6 @@ class WebSiteCase(unittest.TestCase):
     def test_can_sort_items_by_price(self):
         search_page = page.SearchPage(self.driver)
         assert search_page.is_item_list_sorted()
-
-    def test_shopping_cart_starts_empty(self):
-        search_page = page.SearchPage(self.driver)
-        assert search_page.is_balance_zero()
-
-    def test_can_add_item_to_cart(self):
-        search_page = page.SearchPage(self.driver)
-        assert search_page.is_item_in_cart()
 
 if __name__ == "__main__":
     unittest.main()
