@@ -395,3 +395,27 @@ Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrp
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1512719004847	geckodriver	INFO	geckodriver 0.19.1
+1512719004867	geckodriver	INFO	Listening on 127.0.0.1:62860
+1512719006318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Jordy\\AppData\\Local\\Temp\\rust_mozprofile.pxaT58Khazhr"
+1512719008491	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512719016661	Marionette	INFO	Listening on port 62866
+1512719016941	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512719017059	Marionette	DEBUG	Register listener.js for window 4294967297
+1512719051853	geckodriver	INFO	geckodriver 0.19.1
+1512719051867	geckodriver	INFO	Listening on 127.0.0.1:62978
+1512719053895	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Jordy\\AppData\\Local\\Temp\\rust_mozprofile.1dXMsIbTPkIq"
+1512719055352	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Jordy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512719062545	Marionette	INFO	Listening on port 62984
+1512719063317	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512719063413	Marionette	DEBUG	Register listener.js for window 4294967297
+1512719083994	geckodriver	INFO	geckodriver 0.19.1
+1512719084006	geckodriver	INFO	Listening on 127.0.0.1:63037

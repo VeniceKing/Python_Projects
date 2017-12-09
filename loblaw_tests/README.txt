@@ -10,4 +10,4 @@ Python 3.6
 Selenium 3.8
 Chrome 62
 
- © Jordy Kieto
+© Jordy Kieto
