@@ -2,4 +2,7 @@
 "*.pyc" 
 "debug.log" 
 "geckodriver.log" 
+<<<<<<< HEAD
 "debug.log" 
+=======
+>>>>>>> c022df968d0639052574dccc2784212452ec98a3
