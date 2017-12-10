@@ -1,22 +1,17 @@
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import WebDriverException
+from selenium.webdriver.support.ui import WebDriverWait
 from locators import SearchPageLocators
 from locators import LocationPageLocators
 from locators import HomePageLocators
 from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import WebDriverException
-from selenium.webdriver.support import expected_conditions as EC
-
+from locators import URLS
 import time
 
 class BasePage(object):
 
     def __init__(self, driver):
         self.driver = driver
-
-    def search_for_item(self):
-        search_bar = self.driver.find_element(*HomePageLocators.search_bar)
-        search_bar.clear()
-        search_bar.send_keys('APPLES')
-        search_bar.send_keys(Keys.RETURN)
 
 class HomePage(BasePage):
 
@@ -31,7 +26,10 @@ class HomePage(BasePage):
         return  not_current_language == 'EN'
 
     def can_search_for_item(self):
-        BasePage.search_for_item(self)
+        search_bar = self.driver.find_element(*HomePageLocators.search_bar)
+        search_bar.clear()
+        search_bar.send_keys('APPLES')
+        search_bar.send_keys(Keys.RETURN)
         search_results = self.driver.find_element(*HomePageLocators.search_results).text
         return 'APPLES' in search_results
 
@@ -65,25 +63,10 @@ class SearchPage(BasePage):
         return my_item_price in order_total
 
     def is_checkout_working(self):
-        location_button = self.driver.find_element(*LocationPageLocators.location_button)
-        location_button.click()
-        pre_checkout_url = self.driver.current_url
-        time.sleep(3)
-        BasePage.search_for_item(self)
-        sort_prices_desc = self.driver.find_element(*SearchPageLocators.sort_prices_desc)
-        sort_prices_desc.click()
-        try:
-            checkout_button = self.driver.find_element(*SearchPageLocators.checkout_button)
-            checkout_button.click()
-        except WebDriverException as e:      
-            pass
-        time.sleep(3)
-        add_to_cart = self.driver.find_element(*SearchPageLocators.add_to_cart)
-        add_to_cart.click()
-        time.sleep(3)
         checkout_button = self.driver.find_element(*SearchPageLocators.checkout_button)
         checkout_button.click()
-        return pre_checkout_url !=self.driver.current_url
+        shopping_cart_status = self.driver.find_element(*HomePageLocators.shopping_cart_status).text
+        return 'YOUR CART IS EMPTY' in shopping_cart_status
 
 class LocationPage(BasePage):
 
@@ -98,6 +81,7 @@ class LocationPage(BasePage):
         store_search_bar = self.driver.find_element(*LocationPageLocators.store_search_bar)
         store_search_bar.send_keys('EDMONTON')
         store_search_bar.send_keys(Keys.RETURN)
-        time.sleep(3)
+        wait = WebDriverWait(self.driver, 10)
+        wait.until(EC.presence_of_element_located(LocationPageLocators.store_address))
         store_address = self.driver.find_element(*LocationPageLocators.store_address).text
         return 'EDMONTON' in store_address
