@@ -2,49 +2,92 @@ from locators import SearchPageLocators
 from locators import LocationPageLocators
 from locators import HomePageLocators
 from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import WebDriverException
+import time
 
 class BasePage(object):
-    """Base class to initialize the base page that will be called from all pages"""
+
     def __init__(self, driver):
         self.driver = driver
 
+    def search_for_item(self):
+        search_bar = self.driver.find_element(*HomePageLocators.search_bar)
+        search_bar.clear()
+        search_bar.send_keys("APPLES")
+        search_bar.send_keys(Keys.RETURN)
+
 class SearchPage(BasePage):
 
-    def is_balance_zero(self):
-        element = self.driver.find_element(*SearchPageLocators.order_total)
-        element = element.text
-        return "$0.00" == element
+    def is_checkout_working(self):
+        store_locator_button = self.driver.find_element(*HomePageLocators.store_locator_button)
+        store_locator_button.click()
+        location_button = self.driver.find_element(*LocationPageLocators.location_button)
+        location_button.click()
+        time.sleep(3)
+        BasePage.search_for_item(self)
+        checkout_button = self.driver.find_element(*SearchPageLocators.checkout_button)
+        checkout_button.click()
+        time.sleep(3)
+        pre_checkout_url = self.driver.current_url
+        sort_list_desc = self.driver.find_element(*SearchPageLocators.sort_list_desc)
+        sort_list_desc.click()
+        time.sleep(3)
+        add_to_cart = self.driver.find_element(*SearchPageLocators.add_to_cart)
+        add_to_cart.click()
+        time.sleep(3)
+        try:
+            checkout_button.click()
+        except WebDriverException as e:      
+            pass
+        return pre_checkout_url !=self.driver.current_url
+
+    def is_home_page(self):
+        store_locator_button = self.driver.find_element(*HomePageLocators.store_locator_button)
+        store_locator_button.click()
+        home_button = self.driver.find_element(*SearchPageLocators.home_button)
+        home_button.click()
+        return self.driver.current_url == 'https://www.loblaws.ca/'
 
     def is_item_list_sorted(self):
-        element = []
-        list_of_prices = self.driver.find_elements(*SearchPageLocators.all_prices)
-        for price in list_of_prices:
-            element.append(float(price.text.replace("$", "")))
-        return sorted(element, reverse=True) == element
+        BasePage.search_for_item(self)
+        sort_list_desc = self.driver.find_element(*SearchPageLocators.sort_list_desc)
+        sort_list_desc.click()
+        list_of_prices = []
+        all_prices = self.driver.find_elements(*SearchPageLocators.all_prices)
+        for price in all_prices:
+            list_of_prices.append(float(price.text.replace("$", "")))
+        return sorted(list_of_prices, reverse=True) == list_of_prices
 
     def is_item_in_cart(self):
-        item_select = self.driver.find_element(*SearchPageLocators.add_to_cart)
-        item_select.click()
-        check_map = self.driver.find_element(*SearchPageLocators.pick_store)
-        check_map.click()
-        location_select = self.driver.find_element(*SearchPageLocators.location_button)
-        location_select.click()
-        item_select = self.driver.find_element(*SearchPageLocators.add_to_cart)
-        item_select.click()
-        item_price = self.driver.find_element(*SearchPageLocators.my_item).text
+        BasePage.search_for_item(self)
+        add_to_cart = self.driver.find_element(*SearchPageLocators.add_to_cart)
+        add_to_cart.click()
+        pick_store = self.driver.find_element(*SearchPageLocators.pick_store)
+        pick_store.click()
+        location_button = self.driver.find_element(*SearchPageLocators.location_button)
+        location_button.click()
+        add_to_cart = self.driver.find_element(*SearchPageLocators.add_to_cart)
+        add_to_cart.click()
+        my_item = self.driver.find_element(*SearchPageLocators.my_item).text
         order_total = self.driver.find_element(*SearchPageLocators.order_total).text
-        return item_price in order_total      
+        return my_item in order_total
 
 class LocationPage(BasePage):
 
     def is_location_correct(self):
-        location_select = self.driver.find_element(*LocationPageLocators.location_button)
-        store_description = self.driver.find_element(*LocationPageLocators.store_address).text
-        location_select.click()
-        my_store = self.driver.find_element(*LocationPageLocators.store_display).text
-        return my_store in store_description
+        store_locator_button = self.driver.find_element(*HomePageLocators.store_locator_button)
+        store_locator_button.click()
+        location_button = self.driver.find_element(*LocationPageLocators.location_button)
+        store_address = self.driver.find_element(*LocationPageLocators.store_address).text
+        location_button.click()
+        my_store = self.driver.find_element(*LocationPageLocators.my_store).text
+        return my_store in store_address
 
 class HomePage(BasePage):
+
+    def is_balance_zero(self):
+        order_total = self.driver.find_element(*HomePageLocators.order_total).text
+        return "$0.00" == order_total
 
     def is_language_french(self):
         language_select = self.driver.find_element(*HomePageLocators.french_button)
@@ -53,9 +96,6 @@ class HomePage(BasePage):
         return  not_current_language == 'EN'
 
     def can_search_for_item(self):
-        input_box = self.driver.find_element(*HomePageLocators.search_bar)
-        input_box.clear()
-        input_box.send_keys("APPLES")
-        input_box.send_keys(Keys.RETURN)
-        search_results = self.driver.find_element(*HomePageLocators.search_result).text
+        BasePage.search_for_item(self)
+        search_results = self.driver.find_element(*HomePageLocators.search_results).text
         return 'APPLES' in search_results
