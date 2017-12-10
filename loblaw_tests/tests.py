@@ -1,13 +1,14 @@
 import selenium.webdriver as webdriver
+from locators import URLS
 import unittest
 import page
-from locators import URLS
+
 
 class WebSiteCase(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')       
-        self.driver.implicitly_wait(5)
+        self.driver.implicitly_wait(10)
 
     def tearDown(self):
         self.driver.quit()
@@ -36,6 +37,11 @@ class WebSiteCase(unittest.TestCase):
         WebSiteCase.home_page_url(self)
         home_page = page.HomePage(self.driver)
         assert home_page.is_language_french()
+
+    def test_can_search_for_stores(self):
+        WebSiteCase.location_page_url(self)
+        location_page = page.LocationPage(self.driver)
+        assert location_page.can_search_for_store()
 
 #SearchPageTests
     def test_can_redirect_to_homepage(self):
