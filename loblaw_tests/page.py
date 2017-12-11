@@ -14,7 +14,15 @@ class BasePage(object):
         self.driver = driver
 
 class HomePage(BasePage):
+   def can_search_for_item(item):
+        search_bar = self.driver.find_element(*HomePageLocators.search_bar)
+        search_bar.clear()
+        search_bar.send_keys(item)
+        search_bar.send_keys(Keys.RETURN)
+        search_results = self.driver.find_element(*HomePageLocators.search_results).text
+        return item in search_results
 
+    
     def is_balance_zero(self):
         order_total = self.driver.find_element(*HomePageLocators.order_total).text
         return "$0.00" == order_total
@@ -25,13 +33,7 @@ class HomePage(BasePage):
         not_current_language = self.driver.find_element(*HomePageLocators.change_language_button).text
         return  not_current_language == 'EN'
 
-    def can_search_for_item(self):
-        search_bar = self.driver.find_element(*HomePageLocators.search_bar)
-        search_bar.clear()
-        search_bar.send_keys('APPLES')
-        search_bar.send_keys(Keys.RETURN)
-        search_results = self.driver.find_element(*HomePageLocators.search_results).text
-        return 'APPLES' in search_results
+ 
 
 class SearchPage(BasePage):
 
