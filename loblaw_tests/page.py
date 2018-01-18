@@ -1,6 +1,7 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
 from locators import SearchPageLocators
 from locators import LocationPageLocators
 from locators import HomePageLocators
@@ -54,7 +55,9 @@ class SearchPage(BasePage):
         add_to_cart.click()
         pick_store = self.driver.find_element(*SearchPageLocators.pick_store)
         pick_store.click()
-        location_button = self.driver.find_element(*SearchPageLocators.location_button)
+        wait = WebDriverWait(self.driver, 10)
+        location_button = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '.btn.shop-now')))
+#        location_button = self.driver.find_element(*SearchPageLocators.location_button)
         location_button.click()
         add_to_cart = self.driver.find_element(*SearchPageLocators.add_to_cart)
         add_to_cart.click()

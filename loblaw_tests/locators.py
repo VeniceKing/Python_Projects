@@ -11,7 +11,7 @@ class SearchPageLocators(object):
     add_to_cart = (By.CSS_SELECTOR, '.add-to-cart-text')
     my_item = (By.CSS_SELECTOR, '.reg-price-text')
     pick_store = (By.CSS_SELECTOR, '.select-button-container > div > button')
-    location_button = (By.CSS_SELECTOR, 'li.row:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)')
+    location_button = (By.CSS_SELECTOR, '.btn.shop-now')
     sort_prices_desc = (By.CSS_SELECTOR, 'li:nth-child(4) > button')
     order_total = (By.CSS_SELECTOR, '.cart-total-text > span')
     home_button = (By.CSS_SELECTOR, '#siteheader > div.row.top-bar > div.wrapper-logo > a')

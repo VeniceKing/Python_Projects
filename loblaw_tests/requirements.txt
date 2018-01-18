@@ -1,3 +1,2 @@
-
 selenium==3.8
-Chrome>=62
+chromedriver>=2.24.1
