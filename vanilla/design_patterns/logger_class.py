@@ -10,8 +10,8 @@ class Logger(object):
         """Return a Logger object whose file_name is *file_name"""
         self.file_name = file_name
 
-    def write_log(self, level, msg):
-        with open(filename, "a") as log_file:
+    def _write_log(self, level, msg):
+        with open(self.file_name, "a") as log_file:
             log_file.write("{0} {1}\n".format(level, msg))
 
     def critical(self, level, msg):
